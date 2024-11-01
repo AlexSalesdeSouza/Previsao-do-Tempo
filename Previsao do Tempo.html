@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Previsão do Tempo</title>
+    
+    <!-- Fonte do Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="./Previsao do Tempo.css">
+    
+    <!-- JavaScript -->
+    <script src="./Previsao do Tempo.js"></script>
+</head>
+
+<body>
+    <div class="caixa-maior">
+        <!-- Input para cidade -->
+        <input type="text" class="input-cidade" placeholder="Digite o Nome da Cidade">
+        
+        <!-- Botão de busca -->
+        <button class="botao-busca" onclick="cliqueiNoBotao()">
+            <img class="img-busca" src="https://www.svgrepo.com/show/488200/find.svg" alt="buscar">
+        </button>
+        
+        <div>
+            <h2 class="cidade">Tempo em São Paulo</h2>
+            <p class="temp">20ºC</p>
+            
+            <!-- Caixa menor contendo a previsão -->
+            <div class="caixa-menor">
+                <img class="img-previsao" src="https://openweathermap.org/img/wn/04n.png" alt="nuvem">
+                <p class="texto-previsao">Nublado</p>
+            </div>
+            
+            <p class="umidade">Umidade: 76%</p>
+        </div>
+    </div>
+</body>
+
+</html>
